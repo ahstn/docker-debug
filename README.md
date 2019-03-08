@@ -9,7 +9,7 @@ when trying to resolve an issue with your running app or it's network setup.
 For example: testing DNS resolution against a service in your cluster.
 
 As covered in the [usage](#usage) you can also point these tools at a running
-container and effiectly utilise them without the need to change your application
+container and effectively utilise them without the need to change your application
 container itself. For example: if you want to test a file-based config change
 quickly in your target container but it doesn't have vim or any other editor.
 
@@ -47,10 +47,11 @@ The image contains everything a standard alpine container with the following:
   * Vim
   * Git
 * DevOps Tools
-  * Docker
-  * Dive
+  * [Docker](https://github.com/kubernetes-sigs/kustomize)
+  * [Dive](https://github.com/wagoodman/dive)
   * Kustomize
   * Kubernetes CLI (kubectl)
+  * [K9S](https://github.com/derailed/k9s)
 
 
 [How-to Debug a Running Docker Container from a Separate Container]: https://medium.com/@rothgar/how-to-debug-a-running-docker-container-from-a-separate-container-983f11740dc6
